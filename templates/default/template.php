@@ -28,8 +28,8 @@
 <html><head>
 
 
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>ZPanel &gt; Control your hosting!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>ZPanel＆gt; 控制您的托管!</title>
         <link href="{{zp:templatepath}}/inc/4.css" rel="stylesheet" type="text/css">
     </head><body>
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -61,27 +61,27 @@
                                     </td>
                                     <td class="statsdata" width="200" align="right" valign="top">
 
-                                        <h2 align="left">Account Information</h2>
+                                        <h2 align="left">帐户信息</h2>
                                         <div align="left">
                                             <table width="200" border="0" cellspacing="5">
                                                 <tbody><tr>
-                                                        <td nowrap="nowrap"><strong>Username</strong></td>
+                                                        <td nowrap="nowrap"><strong>用户名</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{account:username}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Full name</strong></td>
+                                                        <td nowrap="nowrap"><strong>全名</strong></td>
                                                         <td nowrap="nowrap">{{account:fullname}}</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Email address</strong></td>
+                                                        <td nowrap="nowrap"><strong>电子邮件地址</strong></td>
                                                         <td nowrap="nowrap"><a href="./?c=account&p=my_account" title="Update your contact email address">{{account:email}}</a></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Package</strong></td>
+                                                        <td nowrap="nowrap"><strong>包</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{package:name}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Account type</strong></td>
+                                                        <td nowrap="nowrap"><strong>帐户类型</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{account:type}}</span></td>
                                                     </tr>
                                                     <tr>
@@ -89,7 +89,7 @@
                                                         <td nowrap="nowrap">&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Disk Quota:</strong></td>
+                                                        <td nowrap="nowrap"><strong>磁盘配额:</strong></td>
                                                         <td nowrap="nowrap">{{progbar:diskspace}}</td>
                                                     </tr>
                                                     <tr>
@@ -97,7 +97,7 @@
                                                         <td nowrap="nowrap" valign="top"><img src="{{zp:templatepath}}/inc/drop.gif" width="10" height="8"> <span class="Side_Info">{{usage:diskspace}}</span> / <span class="Side_Info">{{quota:diskspace}}</span>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Bandwidth Quota:</strong></td>
+                                                        <td nowrap="nowrap"><strong>带宽配额:</strong></td>
                                                         <td nowrap="nowrap">{{progbar:bandwidth}}</td>
                                                     </tr>
                                                     <tr>
@@ -109,35 +109,35 @@
                                                         <td nowrap="nowrap">&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Domains</strong></td>
+                                                        <td nowrap="nowrap"><strong>域</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{usage:domains}}</span> / <span class="Side_Info">{{quota:domains}}</span>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Sub-domains</strong></td>
+                                                        <td nowrap="nowrap"><strong>子域</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{usage:subdomains}}</span> / <span class="Side_Info">{{quota:subdomains}}</span>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Parked domains:</strong></td>
+                                                        <td nowrap="nowrap"><strong>存放网域:</strong></td>
                                                         <td nowrap="nowrap"> <span class="Side_Info">{{usage:parkeddomains}}</span> / <span class="Side_Info">{{quota:parkeddomains}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>FTP Accounts</strong></td>
+                                                        <td nowrap="nowrap"><strong>FTP帐户</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{usage:ftpaccounts}}</span> / <span class="Side_Info">{{quota:ftpaccounts}}</span>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>MySQL Databases</strong></td>
+                                                        <td nowrap="nowrap"><strong>MySQL数据库</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{usage:mysql}}</span> / <span class="Side_Info">{{quota:mysql}}</span>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Email Accounts</strong></td>
+                                                        <td nowrap="nowrap"><strong>电子邮件帐户</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{usage:mailboxes}}</span> / <span class="Side_Info">{{quota:mailboxes}}</span>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Email Forwarders</strong></td>
+                                                        <td nowrap="nowrap"><strong>电子邮件转发器</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{usage:forwarders}}</span> / <span class="Side_Info">{{quota:forwarders}}</span>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Distrubution Lists</strong></td>
+                                                        <td nowrap="nowrap"><strong>分发列表</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{usage:distlists}} / {{quota:distlists}}</span></td>
                                                     </tr>
                                                 </tbody></table>
@@ -146,31 +146,31 @@
                                         <div align="left">
                                             <table width="200" border="0" cellspacing="5">
                                                 <tbody><tr>
-                                                        <td nowrap="nowrap"><strong>Your IP</strong></td>
+                                                        <td nowrap="nowrap"><strong>您的IP</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{server:userip}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Server IP</strong></td>
+                                                        <td nowrap="nowrap"><strong>服务器IP</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{server:serverip}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Apache Version</strong></td>
+                                                        <td nowrap="nowrap"><strong>Apache版本</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{server:verapache}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>PHP Version</strong></td>
+                                                        <td nowrap="nowrap"><strong>PHP版本</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{server:verphp}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>MySQL Version</strong></td>
+                                                        <td nowrap="nowrap"><strong>MySQL版本</strong></td>
                                                         <td nowrap="nowrap"><span class="Side_Info">{{server:vermysql}}</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>Perl Version</strong></td>
+                                                        <td nowrap="nowrap"><strong>Perl版本</strong></td>
                                                         <td nowrap="nowrap">5.10</td>
                                                     </tr>
                                                     <tr>
-                                                        <td nowrap="nowrap"><strong>ZPanel Version</strong></td>
+                                                        <td nowrap="nowrap"><strong>ZPanel版本</strong></td>
                                                         <td nowrap="nowrap">{{server:verzpanel}}</td>
                                                     </tr>
                                                 </tbody></table>
@@ -182,7 +182,7 @@
                 </tr>
                 <tr class="copypower">
                     <td class="copypower">Copyright &copy;
-                        2004-2010 <a href="http://www.zpanelcp.com/" target="_blank">ZPanel Project</a>.
+                        2004-2010 <a href="http://www.waiquwang.com/" target="_blank">歪趣网介于ZPanel 修改编译</a>.
                         <br></td>
                 </tr>
             </tbody></table>
