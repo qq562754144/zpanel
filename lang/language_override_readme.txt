@@ -1,8 +1,8 @@
-To over-ride the default language file, simply copy the language file you
-wish to use and rename it to <lang>_override.php
+要覆盖默认语言文件，只需复制您的语言文件即可
+希望使用并将其重命名为<lang> _override.php
 
-example: en-us_override.php
+示例：en-us_override.php
 
-Any language file with an attached "_override" at the end will be used instead
-of the default language file.  This way zpanel updates will not overwrite your
-modified language file.
+将使用末尾带有附加的“_override”的任何语言文件
+的默认语言文件。 这样zpanel更新不会覆盖你的
+修改语言文件。
